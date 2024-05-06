@@ -1,0 +1,1 @@
+This directory and repo has been created to house my first assignment for CA April Standard 2024 - Web Portfolio.
