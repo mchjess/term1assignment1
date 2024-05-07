@@ -1,0 +1,38 @@
+/* set the font-size to 32px */
+.box {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+  
+  /* absolute sizing to 100px width and height */
+  .box1 {
+    background-color: gold;
+    height: 100px;
+    width: 100px;
+  }
+  
+  /* inherit sizing from parent but body has no height by default so height is set to content */
+  .box2 {
+    background-color: silver;
+    height: 50%;
+    width: 50%;
+  }
+  
+  /* set height and width relative to viewport height and width */
+  .box3 {
+    background-color: #cd7f32;
+    height: 20vh;
+    width: 50vw;
+  }
+  
+  /* height is 10x16px (root font-size) width is 10x32px (element font-size) */
+  .box4 {
+    background-color: royalblue;
+    height: 10rem;
+    width: 10em;
+  }
+  
+  body {
+    margin: 0;
+  }
