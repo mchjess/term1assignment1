@@ -1,13 +1,12 @@
-/* set the font-size to 32px */
+
 .box {
     font-size: 2em;
     color: white;
     text-align: center;
 }
   
-  /* absolute sizing to 100px width and height */
   .box1 {
-    background-color: gold;
+    background-color: rgb(111, 0, 255);
     height: 100px;
     width: 100px;
   }
@@ -35,4 +34,69 @@
   
   body {
     margin: 0;
+  }
+  /* Style the elements here */
+
+  
+  #one {
+    position: absolute;
+    height: 425px;
+    width: 425px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .two {
+    position: absolute;
+    height: 325px;
+    width: 325px;
+    background-color: orange;
+    border-radius: 60%;
+    display: inline-block;
+    left: 60px;
+    top: 50px;
+  }
+  
+  .three {
+    position: absolute;
+    height: 225px;
+    width: 225px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    left: 110px;
+    top: 90px;
+  }
+  
+  .four {
+    position: absolute;
+    height: 155px;
+    width: 155px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    left: 145px;
+    top: 125px;
+  }
+  
+  .five {
+    position: absolute;
+    height: 105px;
+    width: 105px;
+    background-color: royalblue;
+    border-radius: 50%;
+    display: inline-block;
+    left: 166px;
+    top: 145px;
+  }
+  .six {
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    display: inline-block;
+    left: 185px;
+    top: 170px;
   }
