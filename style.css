@@ -14,8 +14,8 @@
   /* inherit sizing from parent but body has no height by default so height is set to content */
   .box2 {
     background-color: silver;
-    height: 50%;
-    width: 50%;
+    height: 100px;
+    width: 100px;
   }
   
   /* set height and width relative to viewport height and width */
@@ -38,12 +38,11 @@
   /* Style the elements here */
 
   
-  #one {
+  .one {
     position: absolute;
     height: 425px;
     width: 425px;
     background-color: red;
-    border-radius: 50%;
     display: inline-block;
     z-index: 1;
   }
